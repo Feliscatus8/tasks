@@ -21,7 +21,7 @@ public class TaskController {
     }
 
     @DeleteMapping
-    public void deleteTask(long taskId) {
+    public void deleteTask(Long taskId) {
 
     }
 
