@@ -17,7 +17,7 @@ import java.util.List;
 public class TrelloController {
     private final TrelloClient trelloClient;
 
-    @GetMapping
+    @GetMapping("boards")
     public ResponseEntity<List<TrelloBoardDto>> getTrelloBoards() {
         return ResponseEntity.ok(trelloClient.getTrelloBoards());
     }
